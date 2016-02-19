@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="" id="replace-this-text">
+      REPLACE ME
+    </div>
+    <div class="testing">
+      <p id="click-me">
+        PRESS ME
+      </p>
+    </div>
+
+    <script src="main.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      document.getElementById('click-me').onclick = function() {
+        var newString = Randomize.run();
+        document.getElementById('replace-this-text').innerHTML = newString;
+      };
+    </script>
+  </body>
+</html>
