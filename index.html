@@ -16,14 +16,19 @@
         <button id="pivot">Wait, Pivot</button>
       </div>
     </div>
+    <script src="words.js" charset="utf-8"></script>
     <script src="main.js" charset="utf-8"></script>
     <script type="text/javascript">
-      var newString = Randomize.run();
+      var newString, newColor;
+      newString = Randomize.run(words);
       document.getElementById('replace-this-text').innerHTML = newString;
 
       document.getElementById('pivot').onclick = function() {
-        var newString = Randomize.run();
+        newString = Randomize.run(words);
+        newColor = Randomize.randomColor(colors);
+
         document.getElementById('replace-this-text').innerHTML = newString;
+        document.body.style.backgroundColor = newColor;
       };
     </script>
   </body>

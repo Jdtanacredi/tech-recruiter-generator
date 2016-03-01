@@ -5,14 +5,14 @@ body {
   text-align: center;
   /*height: 100vh;*/
   /*background-color: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727));*/
-  background: -webkit-linear-gradient(top, rgba(124, 45, 72, .8), rgba(75,27,43, .8));
+  /*background: -webkit-linear-gradient(top, rgba(124, 45, 72, .8), rgba(75,27,43, .8));
   background-color: -moz-linear-gradient(top, rgba(124, 45, 72, .8), rgba(75,27,43, .8));
   background-color: -ms-linear-gradient(top, rgba(124, 45, 72, .8), rgba(75,27,43, .8));
-  background-color: -o-linear-gradient(top, rgba(124, 45, 72, .8), rgba(75,27,43, .8));
+  background-color: -o-linear-gradient(top, rgba(124, 45, 72, .8), rgba(75,27,43, .8));*/
   background-image: url('images/tile-svg.svg');
   /*-webkit-mask-image: url(images/tile-svg.svg);
    mask-image: url(images/tile-svg.svg);*/
-  background-color: maroon;
+  background-color: #800000;
   color: #fff;
 }
 
@@ -50,10 +50,12 @@ body {
   font-size: 4em;
   text-transform: uppercase;
   font-weight: 600;
+  min-height: 150px;
 }
 
-@media (max-width: 900px) {body {
-  font-size: 10px;}
+@media (max-width: 900px) {
+  body {font-size: 10px;}
+  #replace-this-text {min-height: 120px;}
 }
 @media (max-width: 600px) {
   body {font-size: 8px;}
