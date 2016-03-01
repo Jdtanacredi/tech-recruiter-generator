@@ -3,7 +3,7 @@ var description = ["Front End","entry level","pixel perfect","passive aggressive
                   "Over Cafienated","Mouth Breathing","Queen Reagent","Surly looking","Unknowingly Smelly","spicy looking","agile","yoga obsessed","lightly perfumed",
                   "moonlighting","Soylent Drinking","snarky ","close talking","easily distracted","laser focused","Lumberjack-esque","Freelance","On-site",
                   "Remote only ","Newly Certified ","On Staff","Tech blogging","Boisterous","Entitled seeming","Brunch eating","overly charismatic","beardly"],
-    colors = ["#585a78","#B03060"],              
+    colors = ["#585a78","#B03060"],
     title = ["Astronaut","Ninja","Fireman","QA Monkey","product designer","interaction slave","dude in sandals","man in skinny jeans","developer in a hoodie",
             "asshole","growth-hacker","Recruiter","Guru","Content Manager","Digital Prophet","E-Shirpa","Dynamo","Quiet Guy","Happiness Officer",
             "Digital Nutritionist","Standing Desk guy","Cyber Viceroy","pixel pusher","scrum lead","Sandwich Artisan","Dream Alchemist","Keyboard Czar",
