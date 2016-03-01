@@ -3,20 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <div class="" id="replace-this-text">
-      REPLACE ME
+    <div class="content-container">
+      <h1>Our Startup is Looking For a...</h1>
+      <div class="" id="replace-this-text">
+        our startup is looking for
+      </div>
+      <div class="testing">
+        <button id="pivot">Wait, Pivot</button>
+      </div>
     </div>
-    <div class="testing">
-      <p id="click-me">
-        PRESS ME
-      </p>
-    </div>
-
     <script src="main.js" charset="utf-8"></script>
     <script type="text/javascript">
-      document.getElementById('click-me').onclick = function() {
+      var newString = Randomize.run();
+      document.getElementById('replace-this-text').innerHTML = newString;
+
+      document.getElementById('pivot').onclick = function() {
         var newString = Randomize.run();
         document.getElementById('replace-this-text').innerHTML = newString;
       };
