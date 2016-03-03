@@ -1,5 +1,5 @@
 var Randomize = (function () {
-  
+
   var _pickRandom = function(array) {
     return array[Math.floor(Math.random()*array.length)];
   };

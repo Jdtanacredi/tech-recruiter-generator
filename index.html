@@ -9,36 +9,13 @@
   <body>
     <div class="content-container">
       <h1>Our Startup is Looking For a...</h1>
-      <div class="" id="replace-this-text">
-        our startup is looking for
-      </div>
-      <div class="testing">
+      <div id="replace-this-text"></div>
+      <div>
         <button id="pivot">Wait, Pivot</button>
       </div>
     </div>
-    <script src="words.js" charset="utf-8"></script>
-    <script src="main.js" charset="utf-8"></script>
-    <script type="text/javascript">
-      var newString, newColor;
-      newString = Randomize.run(words);
-      newColor = Randomize.randomColor(colors);
-      document.getElementById('replace-this-text').innerHTML = newString;
-
-      document.getElementById('pivot').onclick = function() {
-        newString = Randomize.run(words);
-        newColor = Randomize.randomColor(colors);
-
-        document.getElementById('replace-this-text').innerHTML = newString;
-        document.body.style.backgroundColor = newColor;
-        document.getElementById("pivot").style.color = newColor;
-      };
-      document.getElementById('pivot').onmouseover = function() {
-    // do something like for example change the class of a div to change its color :
-      document.getElementById('pivot').className = 'hoverColors';
-      };
-      document.getElementById('pivot').onmouseout = function() {
-        document.getElementById('pivot').className = '';
-      }
-    </script>
+    <script src="js/words.js" charset="utf-8"></script>
+    <script src="js/Randomize.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
   </body>
 </html>
