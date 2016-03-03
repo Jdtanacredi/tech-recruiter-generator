@@ -3,23 +3,16 @@ body {
   font-family: 'Roboto', sans-serif;
   width: 100%;
   text-align: center;
-  /*height: 100vh;*/
-  /*background-color: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727));*/
-  /*background: -webkit-linear-gradient(top, rgba(124, 45, 72, .8), rgba(75,27,43, .8));
-  background-color: -moz-linear-gradient(top, rgba(124, 45, 72, .8), rgba(75,27,43, .8));
-  background-color: -ms-linear-gradient(top, rgba(124, 45, 72, .8), rgba(75,27,43, .8));
-  background-color: -o-linear-gradient(top, rgba(124, 45, 72, .8), rgba(75,27,43, .8));*/
-  background-image: url('images/tile-svg.svg');
-  /*-webkit-mask-image: url(images/tile-svg.svg);
-   mask-image: url(images/tile-svg.svg);*/
+  background-image: url('images/tile-svg-low.svg');
   background-color: #800000;
   color: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
 }
 
 #pivot {
   margin-top: 40px;
   padding: 7px;
-  /*background: #fff;*/
   cursor: pointer;
   transition-duration: 1s;
   background: transparent;
@@ -33,9 +26,12 @@ body {
 }
 
 #pivot:hover {
-  /*background: #000;*/
-  /*color: #fff;*/
+  background: #fff;
+  color: #800000;
 }
+/*FIGURE OUT LATER*/
+.hoverColors {}
+
 .content-container {
   width: 80%;
   margin: 25vh auto 0;

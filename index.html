@@ -21,6 +21,7 @@
     <script type="text/javascript">
       var newString, newColor;
       newString = Randomize.run(words);
+      newColor = Randomize.randomColor(colors);
       document.getElementById('replace-this-text').innerHTML = newString;
 
       document.getElementById('pivot').onclick = function() {
@@ -29,7 +30,15 @@
 
         document.getElementById('replace-this-text').innerHTML = newString;
         document.body.style.backgroundColor = newColor;
+        document.getElementById("pivot").style.color = newColor;
       };
+      document.getElementById('pivot').onmouseover = function() {
+    // do something like for example change the class of a div to change its color :
+      document.getElementById('pivot').className = 'hoverColors';
+      };
+      document.getElementById('pivot').onmouseout = function() {
+        document.getElementById('pivot').className = '';
+      }
     </script>
   </body>
 </html>
