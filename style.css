@@ -12,7 +12,7 @@ body {
 
 #pivot {
   margin-top: 40px;
-  padding: 7px;
+  padding: 11px 7px;
   cursor: pointer;
   transition-duration: 1s;
   background: transparent;
