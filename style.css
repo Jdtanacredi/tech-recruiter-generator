@@ -30,8 +30,6 @@ body {
   color: #800000;
 }
 button:focus {outline:0;}
-/*FIGURE OUT LATER*/
-.hoverColors {}
 
 .content-container {
   width: 80%;
