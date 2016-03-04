@@ -138,9 +138,15 @@ button:focus {outline:0;}
 .modal-colors {
   color: #800000;
 }
+hr.border-colors {padding: 0; border-radius: 0;}
+
 .border-colors {
   border: 2px solid #800000;
+  display: inline-block;
+  border-radius: 22px;
+  padding: 5px;
 }
+
 #divider { width: 60px;}
 
 .modal-footer {
