@@ -2,8 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width" />
+    <title>Why? Combinator</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
@@ -14,6 +16,25 @@
         <button id="pivot">Wait, Pivot</button>
       </div>
     </div>
+
+    <a href="#modal-one" class="btn btn-big">who made this shit?</a>
+    <div class="modal" id="modal-one" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <a href="#close" class="btn-close" aria-hidden="true">×</a> <!--CHANGED TO "#close"-->
+        </div>
+        <div class="modal-body">
+          <h2 class="name-header modal-colors">Justin Tanacredi</h2>
+          <p>stuff about me will go here</p>
+          <hr class="border-colors" id="divider">
+        </div>
+        <div class="modal-footer">
+          <a class="modal-colors border-colors" href="#"><i class="fa fa-2x fa-github-alt"></i></a>
+          <a class="modal-colors border-colors" href="#"><i class="fa fa-2x fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
     <script src="js/words.js" charset="utf-8"></script>
     <script src="js/Randomize.js" charset="utf-8"></script>
     <script src="js/main.js" charset="utf-8"></script>
