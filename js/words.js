@@ -1,5 +1,5 @@
 var description = ["Front End","entry level","pixel perfect","passive aggressive","overpaid","generally unpleasent","Social Media Minded","Acting Chief",
-                  "Executive Minded","Ergonomic Leaning","Rapid Prototyping","Somewhat Older","Fresh out of school","significantly awkward","Overchieving",
+                  "Executive Minded","Ergonomic Leaning","Rapid Prototyping","Somewhat Older","Fresh out of school","significantly awkward","Overachieving",
                   "Over Cafienated","Mouth Breathing","Queen Reagent","Surly looking","Unknowingly Smelly","spicy looking","agile","yoga obsessed","lightly perfumed",
                   "moonlighting","Soylent Drinking","snarky ","close talking","easily distracted","laser focused","Lumberjack-esque","Freelance","On-site",
                   "Remote only ","Newly Certified ","On Staff","Tech blogging","Boisterous","Entitled seeming","Brunch eating","overly charismatic","beardly"],
