@@ -1,7 +1,7 @@
 var newString, newColor, modalColors;
 modalColors = document.getElementsByClassName("modal-colors");
 borderColors = document.getElementsByClassName("border-colors");
-
+backgroundColors = document.getElementsByClassName("background-colors");
 function waitPivot() {
   function mapper(elementArray,applyStyle) {
     for (var i = 0; i < elementArray.length; i++) {
@@ -14,6 +14,8 @@ function waitPivot() {
   document.body.style.backgroundColor = newColor;
   mapper(borderColors,"border-color");
   mapper(modalColors,"color");
+  mapper(backgroundColors,"background-color");
+
 }
 
 waitPivot();
